@@ -1,0 +1,92 @@
+.signUp, .signin {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-self: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 30px;
+    box-shadow: 0px 0px 30px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Additional styles for smaller screens */
+  @media screen and (max-width: 600px) {
+    .signUp , .signin {
+      width: 90%;
+      margin: 15px;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 900px) {
+    .signUp, .signin {
+      width: 90%;
+      margin: 15px;
+    }
+  }
+  
+  .item>input {
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid gray;
+    text-decoration: none;
+    background-color: white;
+  }
+  
+  .item>input:focus {
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  
+  #gmail {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: blue;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+  }
+  
+  #email {
+    color: blue;
+    height: 35px;
+    border-radius: 5px;
+    border-color: blue;
+  }
+  
+  form>button {
+    width: 100%;
+  }
+  
+  form>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signUp>h3 , .signin>h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }

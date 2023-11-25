@@ -1,0 +1,28 @@
+/* styles.css */
+.my-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+  }
+  
+  .my-card {
+    text-align: center;
+  }
+
+  .my-card p {
+    margin: 5px;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .my-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+ .my-card Button{
+    color: var(--white) !important;
+    background-color: var(--theme) !important;
+    width: 90%;
+  }
+  

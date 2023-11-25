@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --theme:#2970ff;
+  --black:#000;
+  --white:#fff;
+  --shadow:0px,0px,30px,8px rgba(227,227,227,.75);
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.custom-input{
+  border: 0;
+  border-bottom: 1px solid #000 ;
+  padding: .5 rem 0 rem;
+  width: 100%;
+  border-radius: 0;
+  margin-top: -1rem !important;
+}
+
+.custom-input::placeholder{
+  color:rgba(0,0,0,.5);
+}
+
+.custom-input:focus{
+  outline: none;
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+
+.sContainer{
+  padding: 30px;
+  display: flex;
+}
+
+.sContainer>input{
+  width: 100%;
+}
+
+.sContainer2{
+  padding: 30px;
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-input{
+  width: 30%;
+}
+
+.ant-table-wrapper{
+  padding: 30px;
+}
+
+@media (max-width: 600px) {
+  .sContainer2{
+    flex-direction: column;
+  }
+}
+
+@media (max-width:1163px){
+  .conman{
+    flex-direction: column;
+  }
+}
+
+.searchg{
+  border: solid 1px lightgray;
+  border-right: none;
+  padding: 5px;
+}
+
+.add-expense-modal {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+
+.my-grid,.sContainer,.sContainer2{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+
+.sContainer>input{
+  border: solid 1px lightgray;
+  border-left: none;
+}
+.sContainer>input:focus{
+  outline: none;
+}

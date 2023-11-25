@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: var(--theme);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    z-index: 1000;
+    
+}
+
+.navbar>p{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
